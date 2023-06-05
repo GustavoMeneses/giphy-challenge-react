@@ -1,0 +1,43 @@
+.wrapper {
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.hiddenContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  opacity: 0.2;
+}
+
+.detail {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.closeButton {
+  margin-bottom: 10px;
+}
+
+.loadMore {
+  height: 50px;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.navButtons button {
+  width: 100px;
+  margin: 5px;
+}
